@@ -1,3 +1,9 @@
+.col-lg-6 h1{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .fs-1{
     font-family: "Playfair Display", serif;
     font-style: italic;
@@ -7,3 +13,13 @@
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
   }
+
+.lead{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pic{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
