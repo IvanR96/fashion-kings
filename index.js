@@ -2,6 +2,7 @@ let activeButton = document.querySelector(".nav-pills .nav-link.active");
 
 let cartBtn = document.querySelector(".nav-link svg");
 
+
 function buttonAnimation(){
  
     activeButton.classList.add("pressed");
@@ -23,15 +24,16 @@ function buttonAnimation(){
     }, 100);
  
  }
+    
 
  activeButton.addEventListener("click", function(e){
     let buttonInnerHTML = this.innerHTML;
 
     buttonAnimation(buttonInnerHTML);
  
-    buttonAnimation(e.key);
  })
 
+ 
  cartBtn.addEventListener("click", function(e){
     let btnInnerHTML = this.innerHTML;
 
@@ -39,3 +41,6 @@ function buttonAnimation(){
 
     
  });
+
+
+ 
