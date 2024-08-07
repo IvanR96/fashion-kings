@@ -5,10 +5,22 @@
 }
 
 .fs-1{
-    font-family: "Playfair Display", serif;
-    font-style: italic;
+    font-family: "Bebas Neue", serif;
 }
 
+header{
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+}
+
+.pb-2{
+    font-family: "Bebas Neue", serif;
+}
+h3{
+    font-family: "Bebas Neue", serif;
+    font-style: italic;
+
+}
 .pressed{
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
